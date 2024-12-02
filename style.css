@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  font-family: "Nunito Sans", sans-serif;
+}
+body {
+  background: #202c36;
+}
+
+.white{
+  background-color: white;
+  color: black;
+  transition: all 0.7s;
+}
+
+
+.text2{
+  cursor: pointer;
+}
+
+.nav1 {
+  display: flex;
+  gap: 941px;
+  justify-content: center;
+  align-items: center;
+  padding: 23px 0px 24px 0px;
+  color: white;
+}
+.contener {
+  height: 80px;
+  background: #2b3844;
+  box-shadow: 0px 2px 4px 0px #0000000e;
+}
+.div1 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32.74px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.div2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.82px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.input1 {
+  width: 480px;
+  height: 56px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 9px 0px #0000000e;
+  background: #2b3844;
+  padding-left: 74px;
+}
+.div4 {
+  margin-top: 48px;
+  margin-left: 40px;
+  display: flex;
+
+  position: relative;
+}
+.div3 {
+  position: absolute;
+  top: 18px;
+  left: 35px;
+  color: white;
+}
+.div5 {
+  width: 264px;
+  height: 250px;
+  border-radius: 5px;
+  background: #2b3844;
+  box-shadow: 0px 0px 7px 2px #00000008;
+  margin-top: 48px;
+}
+.div5 img {
+  margin-left: -9px;
+  margin-top: -9px;
+}
+.div6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  margin-top: 75px;
+  margin-bottom: 131px;
+}
+
+@media (max-width: 1024px) {
+  .nav1 {
+    display: flex;
+    gap: 693px;
+    align-items: center;
+    color: white;
+  }
+  .contener {
+    height: 80px;
+  }
+  .div1 {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24.55px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .div2 {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24.55px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .section1 {
+    display: flex;
+    gap: 240px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .input1 {
+    display: flex;
+    margin: 0 auto;
+    width: 768px;
+    height: 101px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 100px;
+  }
+  .div5 {
+    margin-bottom: -200px;
+  }
+  .div4 {
+    margin-left: 34px;
+    position: relative;
+  }
+  .div3 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 40.27px;
+    left: 151.2px;
+  }
+}
+@media (max-width: 374px) {
+  .nav1 {
+    display: flex;
+    gap: 124px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .contener {
+    width: 375px;
+    height: 80px;
+  }
+  .input1 {
+    margin-left: -15px;
+    width: 343px;
+    height: 48px;
+  }
+  .section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .div1{
+font-size: 14px;
+font-weight: 800;
+line-height: 20px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+  .div2{
+font-size: 12px;
+font-weight: 600;
+line-height: 16.37px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+  .div4 {
+    position: relative;
+  }
+  .div3 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    left: 35.2px;
+  }
+
+}
